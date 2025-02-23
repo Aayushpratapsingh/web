@@ -1,0 +1,484 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+    scroll-behavior: smooth;
+}
+ 
+ /* Header Section */
+ .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('image/trophy.jpeg'); /* Add your background image */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+
+  /* Navbar Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 6%;
+    padding-top: 1% 9%;
+ }
+ 
+ .logo {
+    width: 150px;
+ }
+ 
+ .nav-links {
+    flex: 1;
+    text-align: right;
+ }
+ 
+ .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .nav-links ul li {
+    padding: 8px 12px;
+    position: relative;
+ }
+ 
+ .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+ }
+ 
+ .fa-bars, .fa-times {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+ }
+ 
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 62px;
+    color: rgb(255, 12, 12);
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+    
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #39c4e3;
+    border: 4px solid #fff;
+    padding: 12px 34px;
+    font-size:13px ;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #129dcb;
+    background: #ffffff;
+    transition: 0.5s;
+
+}
+nav .fa{
+    display: none;
+
+}
+
+/* ----Sections---- */
+section {
+    min-height: 100vh;
+}
+
+#home {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+/* BACKGROUND IMAGE SECTION */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('image/club.jpeg'); /* Add your background image */
+    /* background-color: #9c9191; */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+
+
+/*----- aboutus -----*/
+
+.aboutus-section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+h1{
+    margin: 0; /* Remove extra default margins */
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+    
+
+}
+p{
+    color: #f8f8f8;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 34px;
+    padding: 10px;
+    text-align: center;
+
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 18, 18);
+}
+hr.colored{
+    border-color: rgb(242, 33, 33);
+}
+hr{
+max-width: 500px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 2px;
+    margin: 15px auto;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 120px 120;
+}
+.aboutus-col{
+    flex-basis: 31%;
+    background: #7e7d7d;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px  12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    
+}
+h3{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+h1{
+    align-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+}
+
+/* Center content */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    margin: 50px auto;
+    width: 60%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+h3{
+    font-size: large;
+    padding-bottom: 20px;
+}
+/* Rank Table styling */
+.rank-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    
+}
+
+.rank-table th, .rank-table td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.rank-table th {
+    background-color: #333;
+    font-size: 1.2em;
+}
+
+.rank-table td {
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+/* Event Section */
+.event-section {
+    background: rgba(56, 56, 55, 0.067);
+    padding: 50px;
+    text-align: center;
+}
+.event-content h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+table {
+    width: 90%;
+    margin: auto;
+    background: #222;
+    color: #fff;
+    border-collapse: collapse;
+}
+.event-table th, .event-table td {
+    padding: 15px;
+    border: 1px solid #f68d8d;
+}
+th {
+    background: #ff0000;
+}
+
+
+/* game Section */
+
+.game-section img {
+    width: 20%;
+    max-height: 100%; /* Prevents stretching */
+    object-fit: cover;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap images if space is limited */
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    overflow-y: auto; 
+    width: 80%; 
+    max-width: 1200px;/* Allows scrolling if needed */
+}
+
+
+.game-container img{
+    transition: all ease-in-out 0.5s;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid wheat;
+}
+
+
+.game-section img:hover {
+    transform: all ease(1.1);
+    width: 25%; /* Smooth zoom effect */
+}
+.game-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.game-section {
+    background-color: #1d1a1a;
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Adjust height dynamically */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Live Section */
+.live-section {
+    padding: 50px;
+    text-align: center;
+    
+}
+.live-container h3{
+    color: rgb(255, 255, 255);
+    
+}
+.live-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.live-info {
+    max-width: 400px;
+}
+.live-btn {
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.live-btn:hover {
+    background: darkred;
+}
+
+
+
+
+/* Contact us  Section */
+
+.contactus-section {
+    color: white;
+    padding: 50px 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-container {
+    background: #232222;
+    padding: 90px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.contactus-container h2 {
+    color: rgb(231, 19, 19);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contactus-container input,
+.contactus-container textarea {
+    width: 100%;
+    padding: 6px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.contactus-container textarea {
+    resize: vertical;
+    height: 120px; /* Set a height for the message textarea */
+}
+
+.contactus-container button {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactus-container button:hover {
+    background: darkred;
+}
+
+.contactus-container p {
+    margin-top: 10px;
+}
+.contactus-btn{
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.contactus-btn:hover{
+    background: darkred
+}
+
+
+
+
+
+
+/* Background */
+
+#about {
+    background: #1d1a1a;
+}
+
+#event {
+    background: #1d1a1a;
+}
+
+#live {
+    background: #1d1a1a;
+   
+}
+#contactus{
+    background: #1d1a1a;
+}
+
