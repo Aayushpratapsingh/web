@@ -12,7 +12,7 @@ body {
  .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('image/trophy.jpeg'); /* Add your background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('trophy.jpeg'); /* Add your background image */
     background-position: center;
     background-size: cover;
     position: relative;
